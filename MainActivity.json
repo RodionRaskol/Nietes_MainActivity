@@ -1,0 +1,37 @@
+{
+  "entities": {
+    "Users": {
+      "_id": "u1",
+      "firstName": "Trevor",
+      "lastName": "Belmont",
+      "email": "trevorbelmont@mail.com",
+      "password": "kkWa$$0nT45",
+      "isAdmin": false,
+      "mobileNumber": "09876543210"
+    },
+
+    "Orders": {
+      "_id": "o1",
+      "userId": "u1",
+      "totalAmount": 99.98,
+      "dateTimeOrdered": "2024-04-26T10:30:00Z"
+    },
+
+    "OrderItem": {
+      "_id": "p1",
+      "orderId": "o1",
+      "productId": "q1",
+      "quantity": 2,
+      "price": 49.99
+    },
+
+    "Products": {
+      "_id": "q1",
+      "name": "Premium Wireless Headphones",
+      "description": "Enjoy crystal-clear wireless audio anywhere, anytime.",
+      "price": 49.99,
+      "isActive": true
+    }
+  }
+}
+  
